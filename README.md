@@ -35,4 +35,4 @@ To address this, the project introduces **random perturbations** to move scores,
 
 Example usage:
 ```bash
-python pacman.py -p ReflexAgent --delta 0.05 --seed 42
+python3 pacman.py -p ReflexAgent -l testClassic -n 50 --seed 42 --delta 0.1
